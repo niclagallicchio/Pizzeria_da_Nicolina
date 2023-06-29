@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./stylePizzaStack.css">
+    <link rel="stylesheet" href="./CSS/mediaquerispizzeria.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Englebert&family=Libre+Franklin:wght@200&family=Varela+Round&display=swap');
+    </style>
+    <title>Pizzeria da Nicolina</title>
+</head>
+<body>
+    <nav class="flex position">
+        <div class="navbar-logo sfondo">
+            <a href="https://www.w3schools.com/w3css/tryw3css_templates_gourmet_catering.htm#home">
+                <img src="./PizzeriadaNicolina.png" alt="Logo pizzeria">
+            </a>
+        </div>
+        <div class="navbar-menu sfondo">
+            <ul class="flex navbar-menu-list">
+                <li><a href="#chisiamo"
+                        class="link-navbar">Chi siamo</a></li>
+                <li><a href="#menu"
+                        class="link-navbar">Il nostro menù</a></li>
+                <li><a href="#contattaci"
+                        class="link-navbar">Contatti</a></li>
+            </ul>
+        </div>
+    </nav>
+    <header>
+        <img src="https://media-assets.vanityfair.it/photos/61e444841e21bc3bd54b5357/1:1/w_2832,h_2832,c_limit/pizza%20tendenze.jpg"
+                alt="immagine di una pizza" class="flex immagine-pizza">
+        <div class="contenitore-img-h1">
+            <h1 class="titolo-h1">Pizzeria da Nicolina</h1>
+        </div>
+    </header>
+    <div id="chisiamo" class="corpo">
+        <div class="flex prima-parte">
+            <figure class="tradizione">
+                <img src="https://img.freepik.com/free-photo/vertical-shot-homemade-pizza-wooden-surface_181624-50397.jpg?w=2000"
+                    alt="esempio di pizza" class="esempio-pizza">
+            </figure>
+            <div  class="tradizione">
+                <h2>TRADIZIONE</h2>
+                <h3>Tradizione dal 1889</h3>
+                <p> Pizzeria da Nicolina appartiene ad una delle famiglie di pizzaioli più antiche di Bari.
+
+                    I suoi nonni, Tonino Gallicchio e Mimma Biasi, fondarono la prima pizzeria nel 1970 su Via Sparano,
+                    definita
+                    da molti la “Via della Pizza Barese” nel centro antico della città.
+
+                    I coniugi Gallicchio misero al mondo 2 figli, diventati poi, tutti pizzaioli.
+
+                    Tonino cresce nella pizzeria di famiglia e ben presto impara i segreti della vera pizza barese che
+                    lui
+                    ama
+                    precisare “quella dei vicoli poveri della città” cioè più grande, generosa e accessibile a tutti.
+
+                    Ben presto Tonino manifesta il suo stile e la sua impronta; il mestiere di famiglia abbinato ad una
+                    sua
+                    spiccata e naturale vena artistica gli consentono di comunicare attraverso le sue creazioni.
+
+                    La centenaria tradizione viene così proposta in chiave contemporanea contribuendo ad uno dei più
+                    grandi
+                    cambiamenti avvenuti nel mondo della pizza negli ultimi decenni.
+
+                    Numerosi sono i servizi giornalistici e televisivi nazionali ed internazionali che si sono occupati
+                    di
+                    Tonino e della sua Pizza.
+
+                    Frequenti sono le sue partecipazioni al palinsesto televisivo, pizzaiolo di Masterchef per tre
+                    edizioni,
+                    giudice per la gara di pizza tra i giudici di Masterchef Israele, Menù di Benedetta, Alice TV, e da
+                    cinque
+                    anni alla rubrica “Pizza” de La Prova del Cuoco su Rai 1 e sul suo magazine mensile. Inoltre è stato
+                    protagonista di molti documentari e docufiction su Napoli e sulla Pizza prodotti e mandati in onda
+                    in
+                    tutto
+                    il mondo da Discovery, National Geographic e Arkè.
+                </p>
+            </div>
+        </div>
+        <div id="menu" class="flex seconda-parte">
+                <div class="tradizione">
+                    <h2>IL NOSTRO MENU'</h2>
+                    <h4>Così è la vita</h4>
+                    <p>
+                    Base bianca, mortadella, granella di pistacchi, stracciatella
+                    </p>
+                    <h4>Tre uomini e una gamba</h4>
+                    <p>
+                    Base bianca, gorgonzola, pomodori secchi, capocollo di Martina Franca
+                    </p>
+                    <h4>Chiedimi se sono felice</h4>
+                    <p>
+                    Base bianca, lardo di colonnata, friarelli
+                    </p>
+                    <h4>Tu la conosci Claudia?</h4>
+                    <p>
+                    Base bianca, datterino giallo, patate croccanti, stracciatella
+                    </p>
+                    <h4>Odio l'estate</h4>
+                    <p>
+                    Base bianca, funghi cardoncelli, gorgonzola
+                    </p>
+            </div>
+            <figure class="tradizione">
+                <img class="esempio-pizza-bianca"
+                    src="https://img.freepik.com/premium-photo/pizza-slices-table-white-background-pizza-menu-vertical-picture_109656-1170.jpg?w=2000"
+                    alt="esempio-pizza-bianca">
+            </figure>
+        </div>
+    </div>
+    <div id="contattaci" class="invio-richieste">
+        <h2 class="contattaci">Contattaci</h2>
+        <p class="contact">Offriamo un servizio completo per qualsiasi tipologia di festa, dai compleanni alle lauree. Abbiamo realizzato anche feste a tema per i veri amanti della pizza, con qualsiasi intolleranza ed allergia. Non esitare a contattarci per saperne di più.</p>
+        <form action="form.php" method="post" class="compilazione">
+            <p class="via">Via Francesco Lattanzio, 59, 70126 Bari BA</p>
+            <p>Puoi anche contattarci telefonicamente allo 080 554 2903 o tramite e-mail pizzeridanicolina@gmail.com, oppure puoi inviarci un messaggio qui:</p>
+            <div>
+                <label for="Nome"></label>
+                <input class="form-input" type="text" name="Nome" id="Nome"
+                placeholder="Nome">
+            </div>
+            <div>
+                <label for="Quante persone"></label>
+                <input class="form-input" type="text" name="Quante persone" id="Quante persone" placeholder="Quante persone">
+            </div>
+            <div>
+                <label for="Data e ora"></label>
+                <input class="form-input" type="datetime" name="Quante persone" id="Quante persone" placeholder="Data e ora" value="03/01/2023 15:43">
+            </div>
+            <div>
+                <label for="Messaggio"></label>
+                <input class="form-input" type="text" name="Messaggio" id="Messaggio" placeholder="Messaggio/Richieste">
+            </div>
+            <div>
+                <button class="form-submit" type="submit">INVIA MESSAGGIO</button>
+            </div>
+        </form>
+    </div>
+    <footer>
+        <p class="firma">Creato da Nicla Gallicchio</p> 
+    </footer>
+
+</body>
+
+</html>
